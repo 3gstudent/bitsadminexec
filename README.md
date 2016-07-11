@@ -3,6 +3,10 @@ Use bitsadmin to maintain persistence and bypass Autoruns
 
 Report to MSRC.
 
+Author: 3gstudent
+
+License: BSD 3-Clause
+
 ###POC
 (1) First we should have the administrator's right.
 
