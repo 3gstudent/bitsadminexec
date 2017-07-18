@@ -48,3 +48,5 @@ Stop Background Intelligent Transfer Service
 ### More deatils:
 
 http://drops.wooyun.org/tips/15692
+
+《Use bitsadmin to maintain persistence and bypass Autoruns》
